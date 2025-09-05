@@ -1,0 +1,56 @@
+# FastAPI 및 관련 패키지
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# 데이터베이스 관련
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.13.0
+
+# 인증 관련
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Redis 및 캐싱
+redis==5.0.1
+aioredis==2.0.1
+
+# 외부 API 및 크롤링
+httpx==0.25.2
+aiohttp==3.9.1
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# AI 관련 (Hugging Face)
+transformers==4.36.0
+torch==2.1.0
+sentence-transformers==2.2.2
+
+# 이메일 발송
+fastapi-mail==1.4.1
+jinja2==3.1.2
+
+# 스케줄링
+celery==5.3.4
+beat==0.2.6
+
+# 유틸리티
+python-dotenv==1.0.0
+requests==2.31.0
+pillow==10.1.0
+loguru==0.7.2
+
+# 개발 및 테스트
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+
+# CORS 및 보안
+python-cors==1.0.0
+slowapi==0.1.9
